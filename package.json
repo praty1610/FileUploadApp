@@ -1,0 +1,51 @@
+{
+  "name": "fileuploadapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --hot --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praty1610/FileUploadApp.git"
+  },
+  "keywords": [
+    "['react'",
+    "'highcharts']"
+  ],
+  "author": "'Prateek'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praty1610/FileUploadApp/issues"
+  },
+  "homepage": "https://github.com/praty1610/FileUploadApp#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "highcharts": "6.0.7",
+    "isomorphic-fetch": "2.2.1",
+    "jquery": "3.3.1",
+    "mongoose": "5.0.12",
+    "react": "16.2.0",
+    "react-bootstrap": "0.32.1",
+    "react-dom": "16.2.0",
+    "react-redux": "5.0.7",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.11",
+    "nodemon": "1.17.2",
+    "style-loader": "0.20.3",
+    "webpack": "4.3.0",
+    "webpack-cli": "2.0.13",
+    "webpack-dev-server": "3.1.1"
+  }
+}
